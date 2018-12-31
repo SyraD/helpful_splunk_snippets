@@ -25,6 +25,7 @@ for kv in kv_client:
 
 ## note: attempts to pass the token caused tuple errors, possible bug in Splunklib 
 # save the cookie
+########### at this point, the cookie could be passed to another script ########
 my_cookie = service.get_cookies()
 
 # logout
